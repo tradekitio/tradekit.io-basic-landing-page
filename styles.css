@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(0, 39, 59);
+  }
+
+.div-canvas {
+    background-color: rgb(0, 39, 59);
+}
+
+.div-blank {
+    background-color: rgb(0, 39, 59);
+}
+/*Parent*/
+.logo {
+    vertical-align: middle;
+    margin: auto;
+    display: block;
+}
+
+/*Child A*/
+.circle{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 255, 162);
+    border-radius:50%;
+    height:400px;
+    width: 400px;
+    box-shadow: 0px 20px 20px rgb(0, 24, 36);
+    background-color: rgb(0, 39, 59);
+    margin:auto;
+}
+
+/*Child A.b*/
+.organisation-text{
+    padding: 150px 0;
+    text-align: center;
+    margin:auto;
+}
+
+/*Child A.b.0*/
+.label-a{
+    color: rgb(0, 255, 162);
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    margin:auto;
+}
+
+/*Child A.b.1*/
+.label-b{
+    color: rgb(255, 5, 152);
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    margin:auto;
+}

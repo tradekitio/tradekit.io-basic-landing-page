@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tradekit.io</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<body>
+    <div class="div-canvas">
+        <div class="div-blank">
+      <div class="logo">
+              <div class="circle">
+          <div class="organisation-text">
+            <span class="label-a">TRADE</span>
+            <span class="label-b">KIT</span>
+          </div>
+              </div>
+      </div>
+        </div>
+  </div>
+</body>
+</html>
