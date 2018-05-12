@@ -1,6 +1,16 @@
+# ;----------------------------;
+# ;  Project Specific Ignores  ;
+# ;----------------------------;
 # VIM temp files
 *~
 *swp
+
+# Node modules folder
+node_modules/
+
+# ;----------------------------;
+# ; GitHub Boilerplate Ignores ;
+# ;----------------------------;
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
