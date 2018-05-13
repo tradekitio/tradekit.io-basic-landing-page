@@ -6,6 +6,7 @@
 *swp
 
 # Node modules folder
+publish/
 node_modules/
 
 # ;----------------------------;

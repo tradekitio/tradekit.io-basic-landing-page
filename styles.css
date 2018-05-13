@@ -6,7 +6,6 @@ body {
 .canvas {
     /* Look */
     background-color: rgb(0, 39, 59);
-    width: 420px; 
     /* Layout */
     display: table;
     position: absolute;
@@ -29,6 +28,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     width: 400px;
 }
 
@@ -50,9 +50,19 @@ body {
 /*Child A.b*/
 .text{
     /* Look */
-    padding: 150px 0;
+    padding: 176px 0;
     text-align: center;
     /* Layout */
+    margin: auto;
+}
+
+.copyright{
+    /* Look */
+    padding: 20px 0;
+    text-align: center;
+    /* Layout */
+    color: rgb(51, 102, 102);
+    font-family: 'IBM Plex Sans', sans-serif;
     margin: auto;
 }
 
@@ -74,4 +84,39 @@ body {
     font-family: 'Roboto Mono', monospace;
     /* Layout */
     margin: auto;
+}
+
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle
+}
+
+.hash {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.contact {
+    color: rgb(255, 0, 102);
+    font-size: 18px;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+.info {
+    color: rgb(0, 255, 162);
+    font-size: 18px;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+.intro{
+    /* Look */
+    color: rgb(0, 255, 162);
+    font-size: 42px;
+    font-family: 'Miriam Libre', sans-serif;
+    border: 0;
+    /* Layout */
+    text-align: left;
+    margin: auto;
+    height: 20px;
+    width: 580px;
 }
