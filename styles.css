@@ -94,18 +94,25 @@ body {
 
 .hash {
     font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 80px;
+}
+
+.keywords {
+    padding-left: 30px;
 }
 
 .contact {
     color: rgb(255, 0, 102);
     font-size: 18px;
     font-family: 'Miriam Libre', sans-serif;
+    padding-left: 76px;
 }
 
 .info {
     color: rgb(0, 255, 162);
     font-size: 18px;
     font-family: 'Miriam Libre', sans-serif;
+    padding-left: 76px;
 }
 
 .intro{
