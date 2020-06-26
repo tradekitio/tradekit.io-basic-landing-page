@@ -6,8 +6,11 @@
 *swp
 
 # Node modules folder
-publish/
+publish/*
 node_modules/
+
+# exception to the rule
+!publish/.gitkeep
 
 # ;----------------------------;
 # ; GitHub Boilerplate Ignores ;
