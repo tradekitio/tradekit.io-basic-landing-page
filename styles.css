@@ -1,129 +1,155 @@
 body {
   background-color: rgb(0, 39, 59);
-  }
+}
 
-/*External*/
+/* External */
 .canvas {
-    /* Look */
-    background-color: rgb(0, 39, 59);
-    /* Layout */
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+  /* Look */
+  background-color: rgb(0, 39, 59);
+
+  /* Layout */
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-/*Outer*/
+/* Outer */
 .container {
-    /* Look */
-    background-color: rgb(0, 39, 59);
-    /* Layout */
-    display: table-cell;
-    vertical-align: middle
+  /* Look */
+  background-color: rgb(0, 39, 59);
+
+  /* Layout */
+  display: table-cell;
+  vertical-align: middle;
 }
 
-/*Parent*/
+/* Parent */
 .logo {
-    /* Layout */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    width: 400px;
+  /* Layout */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 400px;
 }
 
-/*Child A*/
-.circle{
-    /* Look */
-    border-style: solid;
-    border-width: 4px;
-    border-color: rgb(0, 255, 162);
-    border-radius:50%;
-    box-shadow: 0px 20px 20px rgb(0, 24, 36);
-    background-color: rgb(0, 39, 59);
-    /* Layout */
-    height:400px;
-    width: 400px;
-    margin: auto;
+/* Child A */
+.circle {
+  /* Look */
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(0, 255, 162);
+  border-radius: 50%;
+  box-shadow: 0px 20px 20px rgb(0, 24, 36);
+  background-color: rgb(0, 39, 59);
+
+  /* Layout */
+  height: 400px;
+  width: 400px;
+  margin: auto;
 }
 
-/*Child A.b*/
-.text{
-    /* Look */
-    padding: 176px 0;
-    text-align: center;
-    /* Layout */
-    margin: auto;
+/* Child A.b */
+.text {
+  /* Look */
+  padding: 176px 0;
+  text-align: center;
+
+  /* Layout */
+  margin: auto;
 }
 
-.copyright{
-    /* Look */
-    padding: 20px 0;
-    text-align: center;
-    /* Layout */
-    color: rgb(51, 102, 102);
-    font-family: 'IBM Plex Sans', sans-serif;
-    margin: auto;
+.copyright {
+  /* Look */
+  padding: 20px 0;
+  text-align: center;
+
+  /* Layout */
+  color: rgb(51, 102, 102);
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: auto;
 }
 
-/*Child A.b.0*/
-.label-a{
-    /* Look */
-    color: rgb(0, 255, 162);
-    font-size: 60px;
-    font-family: 'Roboto Mono', monospace;
-    /* Layout */
-    margin: auto;
+/* Child A.b.0 */
+.label-a {
+  /* Look */
+  color: rgb(0, 255, 162);
+  font-size: 60px;
+  font-family: 'Roboto Mono', monospace;
+
+  /* Layout */
+  margin: auto;
 }
 
-/*Child A.b.1*/
-.label-b{
-    /* Look */
-    color: rgb(255, 5, 152);
-    font-size: 60px;
-    font-family: 'Roboto Mono', monospace;
-    /* Layout */
-    margin: auto;
+/* Child A.b.1 */
+.label-b {
+  /* Look */
+  color: rgb(255, 5, 152);
+  font-size: 60px;
+  font-family: 'Roboto Mono', monospace;
+
+  /* Layout */
+  margin: auto;
 }
 
-.about{
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle
+.about {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
 }
 
 .hash {
-    font-family: 'IBM Plex Sans', sans-serif;
-    padding-left: 80px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+  padding-top: 5px;
+  padding-left: 0px;
+  overflow: hidden;
+  text-indent: 36px;
+  max-width: 68px;
 }
 
 .keywords {
-    padding-left: 30px;
+  padding-left: 0px;
+  font-size: 42px;
+  overflow: hidden;
+  text-indent: 4px;
+  max-width: 512px;
 }
 
 .contact {
-    color: rgb(255, 0, 102);
-    font-size: 18px;
-    font-family: 'Miriam Libre', sans-serif;
-    padding-left: 76px;
+  color: rgb(255, 0, 102);
+  font-size: 18px;
+  font-family: 'Miriam Libre', sans-serif;
+  padding-left: 8px;
+}
+
+.button {
+  padding-left: 136px;
+  max-width: 512px;
 }
 
 .info {
-    color: rgb(0, 255, 162);
-    font-size: 18px;
-    font-family: 'Miriam Libre', sans-serif;
-    padding-left: 76px;
+  color: rgb(0, 255, 162);
+  font-size: 18px;
+  font-family: 'Miriam Libre', sans-serif;
+  padding-left: 8px;
+  overflow: hidden;
+  max-width: 512px;
 }
 
-.intro{
-    /* Look */
-    color: rgb(0, 255, 162);
-    font-size: 42px;
-    font-family: 'Miriam Libre', sans-serif;
-    border: 0;
-    /* Layout */
-    text-align: left;
-    margin: auto;
-    height: 20px;
-    width: 580px;
+.intro {
+  /* Look */
+  color: rgb(0, 255, 162);
+  font-size: 42px;
+  font-family: 'Miriam Libre', sans-serif;
+  border: 0;
+
+  /* Layout */
+  margin: auto;
+  height: 20px;
+  width: 580px;
+  table-layout: fixed;
+
+  /* background-color: red; */
 }
